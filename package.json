@@ -1,0 +1,16 @@
+{
+  "name": "chalkwebpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "webpack": "^5.23.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
