@@ -1,5 +1,5 @@
 {
-  "name": "chalkwebpack",
+  "name": "chalk-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,14 @@
   },
   "author": "",
   "license": "ISC",
+  "keywords": ["chalk", "webpack", "webpack-dev-server", "color", "console.log"],
   "dependencies": {
     "chalk": "^4.1.0",
     "webpack": "^5.23.0",
     "webpack-dev-server": "^3.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gjagnoor/chalkWebpack"
   }
 }
