@@ -31,7 +31,7 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
 class chalkWebpack {
   apply(compiler) {
       compiler.hooks.thisCompilation.tap("chalkWebpack", compilation => {
-        let directoryPath = path.resolve(`${__dirname}/src/`);
+          let directoryPath = path.join(`${__dirname}`, "../../", `src/`);
         let files = getAllFiles(directoryPath);
         files.forEach((filePath) => {
           fs.readFile(filePath, "utf8", (err, data) => {
