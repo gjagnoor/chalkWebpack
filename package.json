@@ -1,18 +1,23 @@
 {
   "name": "chalk-webpack",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "chalk-webpack is a Chalk clone but specifically for the frontend. It's a plugin for webpack that allows your console.logs to appear colorful in the browser - resulting in an improved developer experience. If you are looking for your logs to standout in an abyss of logs as you develop your app, this package will help get you there!",
   "main": "chalkWebpack.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "jagnoorgrewal",
   "license": "ISC",
-  "keywords": ["chalk", "webpack", "webpack-dev-server", "color", "console.log"],
+  "keywords": [
+    "chalk",
+    "webpack",
+    "color",
+    "console.log",
+    "console"
+  ],
   "dependencies": {
     "chalk": "^4.1.0",
-    "webpack": "^5.23.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack": "^5.23.0"
   },
   "repository": {
     "type": "git",
