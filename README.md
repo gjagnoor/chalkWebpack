@@ -20,7 +20,7 @@ Create a `config-overrides.js` file in the root directory, and add the following
 
 ```javascript
 const chalkWebpack = require("chalk-webpack");
-module.exports = function override(config, env) {
+module.exports = {
   webpack: function(config, env) {
         ...
         config.plugins.push(new chalkWebpack());

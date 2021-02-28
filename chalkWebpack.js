@@ -159,10 +159,8 @@ CSS_COLOR_NAMES = CSS_COLOR_NAMES.map((color) => color.toLowerCase());
 module.exports = class chalkwebpack {
     apply(compiler) {
         compiler.hooks.afterEmit.tap("chalkwebpack", stats => {
-        // const { path, filename } = stats.compilation.options.output;
         try {
-            // let filePath = path + "/" + filename;
-            let directoryPath = path.resolve(`${__dirname}/build/static/js/`);
+            let directoryPath = path.resolve(`${__dirname}/../../build/static/js/`);
             let files = getAllFiles(directoryPath);
             files.forEach((filePath) => {
                 fs.readFile(filePath, "utf8", (err, data) => {
